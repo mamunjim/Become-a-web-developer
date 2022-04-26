@@ -1,0 +1,71 @@
+/* menu section start */
+.nav-link:hover{
+    color: white !important;
+    transition: .5s;
+}
+/* Banner start */
+.banner{
+    height: 420px;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    color: white;
+   
+}
+.holud{
+    color: #ffc107;
+}
+.banner p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    color: white;
+}
+.banner img{
+    width: 100%;
+}
+ /* Banner end */
+
+ /* signup section start */
+ .signup{
+     background:#0d6efd;
+     padding:25px 0;
+ }
+ .signup-bg{
+     background: #0d6efd !important;
+ }
+ .submit-button{
+     font-size: 20px;
+     line-height: 30px;
+     color: white;
+     background: #212529;
+     margin-left: -10px;
+ }
+ .form-control{
+    padding: .575rem 9.75rem !important;
+ }
+
+
+/* signup section end */
+.service{
+    margin-top: 40px;
+}
+.service-icon{
+    font-size: 30px;
+    line-height: 20px;
+    color: white;
+}
+.card-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+.card-padding{
+    padding-top: 20px;
+  
+}
+.card-2{
+    background: #6c757d;
+}
