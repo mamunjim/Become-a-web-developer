@@ -3,6 +3,20 @@
     color: white !important;
     transition: .5s;
 }
+ul li:hover ul{
+   display: block;
+   background: #ffc107;
+}
+ul li{
+    position: relative;
+}
+ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+   
+}
 /* Banner start */
 .banner{
     height: 420px;
@@ -49,6 +63,8 @@
 
 
 /* signup section end */
+
+/* card section start */
 .service{
     margin-top: 40px;
 }
@@ -69,3 +85,34 @@
 .card-2{
     background: #6c757d;
 }
+.card{
+    border-top: 5px solid #ffffff;
+    border-left: none;
+    border-right: none;
+    transition: .5s;
+}
+.card:hover{
+    border: 0;
+}
+/* card section end */
+
+/* fundamental section start */
+.fundamental{
+    margin-top: 100px;
+}
+.first-para{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+}
+/* fundamental section end */
+
+/* Reach section start */
+.reach{
+    height: 465px;
+    margin-top: 50px;
+}
+.reach-content{
+    padding-top: 100px;
+}
+/* Reach section  end */
