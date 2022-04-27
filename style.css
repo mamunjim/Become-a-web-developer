@@ -116,3 +116,13 @@ ul li ul{
     padding-top: 100px;
 }
 /* Reach section  end */
+
+/* accordion start */
+.accordion-main{}
+.accordion-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.accordion-button{
+    font-size: 16px;
+}
